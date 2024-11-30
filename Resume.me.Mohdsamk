@@ -3,122 +3,106 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume - Mohd Sami</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            line-height: 1.6;
-        }
-        header {
-            text-align: center;
-            margin-bottom: 30px;
-        }
-        .section {
-            margin-bottom: 20px;
-        }
-        h1, h2, h3 {
-            color: #2c3e50;
-        }
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        ul li {
-            margin-bottom: 5px;
-        }
-        .contact-info {
-            margin-top: 10px;
-        }
-        .skills span, .strengths span {
-            display: inline-block;
-            background-color: #3498db;
-            color: white;
-            padding: 5px 10px;
-            margin: 5px;
-            border-radius: 5px;
-        }
-    </style>
+    <title>Mohd Sami - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <h1>Mohd Sami</h1>
-        <p>P: +91 7997069585 | E: Mohdsamiahmeduddin@gmail.com</p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/mohd-sami-ahmed-5b5b21228" target="_blank">https://www.linkedin.com/in/mohd-sami-ahmed</a></p>
+        <p><strong>Email:</strong> <a href="mailto:Mohdsamiahmeduddin@gmail.com">Mohdsamiahmeduddin@gmail.com</a></p>
+        <p><strong>Phone:</strong> +91 7997069585</p>
+        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/mohd-sami-ahmed-5b5b21228" target="_blank">Mohd Sami LinkedIn</a></p>
     </header>
-    <section class="section">
-        <h2>Objective</h2>
-        <p>
-            To contribute to a dynamic, growth-oriented organization by embracing new challenges and continually developing my professional skills. A quick learner who thrives under pressure, with strong persuasive abilities and a commitment to sincerity, loyalty, and hard work.
-        </p>
-    </section>
-    <section class="section">
-        <h2>Experience</h2>
+
+    <nav>
         <ul>
-            <li><strong>Team Leader</strong> (May 2023 - Present): Managed diverse teams, project planning, and performance optimization.</li>
-            <li><strong>Recruiter</strong> (May 2022 - Aug 2022): Specialized in resume screening and talent acquisition.</li>
-            <li><strong>Senior Executive</strong> (Jan 2022 - Apr 2022): Supervised sales teams, logistics, and increased customer satisfaction by 30%.</li>
-            <li><strong>Marketing Assistant</strong> (Jun 2021 - Dec 2021): Supported campaigns, managed social media, and improved brand visibility.</li>
+            <li><a href="#objective">Objective</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#achievements">Achievements</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
-    </section>
-    <section class="section">
-        <h2>Education</h2>
-        <ul>
-            <li><strong>Computer Science Engineering</strong> (2024) - Mahaveer (JNTU)</li>
-            <li><strong>Intermediate - MPC</strong> (2022) - Safa Junior College (Grades: 7.5)</li>
-            <li><strong>Schooling</strong> - The Golden Jubilee English High School (Grades: 7.3)</li>
-        </ul>
-    </section>
-    <section class="section">
-        <h2>Skills</h2>
-        <div class="skills">
-            <span>Leadership</span><span>Management</span><span>Teamwork</span>
-            <span>Analytics</span><span>Administrative Skills</span><span>MS Office</span>
-        </div>
-    </section>
-    <section class="section">
-        <h2>Projects</h2>
-        <ul>
-            <li><strong>Laali Fellowship:</strong> Empowered women through education and skill-building workshops.</li>
-            <li><strong>Kerala Flood Fundraising:</strong> Organized relief efforts, raising significant funds for affected communities.</li>
-        </ul>
-    </section>
-    <section class="section">
-        <h2>Strengths</h2>
-        <div class="strengths">
-            <span>Adaptability</span><span>Strong Communication</span><span>Problem-Solving</span>
-            <span>Time Management</span><span>Creativity</span><span>Self-Motivation</span>
-        </div>
-    </section>
-    <section class="section">
-        <h2>Achievements & Awards</h2>
-        <ul>
-            <li>Best Team Award (10+ months)</li>
-            <li>Employee of the Month (1+ year)</li>
-            <li>Greenpeace Academy Certified</li>
-            <li>Ethical Hacking Certification</li>
-        </ul>
-    </section>
-    <section class="section">
-        <h2>Hobbies</h2>
-        <ul>
-            <li>Reading</li>
-            <li>Riding Bikes and Cars</li>
-            <li>Playing Chess and Football</li>
-            <li>Exercise and Yoga</li>
-        </ul>
-    </section>
-    <section class="section">
-        <h2>Languages</h2>
-        <p>English, Hindi, Urdu</p>
-    </section>
-    <section class="section">
-        <h2>Industrial Visits</h2>
-        <ul>
-            <li>DRDL</li>
-            <li>Schneider Electric Campus</li>
-            <li>Parla Manufacturing Site</li>
-        </ul>
-    </section>
+    </nav>
+
+    <main>
+        <section id="objective">
+            <h2>Objective</h2>
+            <p>
+                To contribute to a dynamic, growth-oriented organization by embracing new challenges and continually developing my professional skills. I aim to make a meaningful impact while fostering collaboration and innovation.
+            </p>
+        </section>
+
+        <section id="experience">
+            <h2>Experience</h2>
+            <ul>
+                <li>
+                    <strong>Team Leader</strong> (May 2023 - Present)
+                    <p>Managing and motivating teams to achieve operational excellence, project management, and conflict resolution.</p>
+                </li>
+                <li>
+                    <strong>Recruiter</strong> (May 2022 - August 2022)
+                    <p>Resume screening, talent acquisition, and candidate assessments.</p>
+                </li>
+                <li>
+                    <strong>Senior Executive</strong> (Jan 2022 - April 2022)
+                    <p>Managed daily operations, supervised sales teams, and improved customer satisfaction by 30%.</p>
+                </li>
+                <li>
+                    <strong>Marketing Assistant</strong> (June 2021 - Dec 2021)
+                    <p>Supported marketing teams in executing campaigns and managing social media accounts.</p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <ul>
+                <li><strong>B.Tech in Computer Science Engineering</strong> - JNTU (2024)</li>
+                <li><strong>Intermediate (MPC)</strong> - Safa Junior College (2022) - Grade: 7.5</li>
+                <li><strong>Schooling</strong> - The Golden Jubilee English High School (2020) - Grade: 7.3</li>
+            </ul>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <p>Leadership, Management, Collaboration, Teamwork, Organizing, Fast Learner, Analytics, Administrative Skills, MS Office, Teaching.</p>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li>
+                    <strong>Laali Fellowship:</strong>
+                    Developed initiatives empowering underprivileged women through skill-building workshops.
+                </li>
+                <li>
+                    <strong>Kerala Floods Fundraising:</strong>
+                    Spearheaded efforts to raise funds and provide aid to flood-affected communities in 2018.
+                </li>
+            </ul>
+        </section>
+
+        <section id="achievements">
+            <h2>Achievements</h2>
+            <ul>
+                <li>Best Team Award for 10+ months</li>
+                <li>Employee of the Month for 1+ year</li>
+                <li>Greenpeace Academy Certified</li>
+                <li>Chess and Football Champion</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p><strong>Email:</strong> <a href="mailto:Mohdsamiahmeduddin@gmail.com">Mohdsamiahmeduddin@gmail.com</a></p>
+            <p><strong>Phone:</strong> +91 7997069585</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Mohd Sami. All Rights Reserved.</p>
+    </footer>
 </body>
 </html>
